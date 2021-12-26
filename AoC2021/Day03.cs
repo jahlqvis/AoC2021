@@ -46,7 +46,7 @@ namespace AoC2021
                 for (int ii = 0; ii < numBits; ii++)
                 {
                     
-                    BitCount b;
+                    BitCount? b;
                     if(!bytesCount.TryGetValue(ii, out b))
                     {
                         b = new BitCount();
