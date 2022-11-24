@@ -10,4 +10,6 @@ var t = DateTime.UtcNow;
 //Console.WriteLine("Day 04 A: " + Day04.Bingo(Day04.DrawnNumbersAndRandomBoards) + " " + "Calculated in " + (DateTime.UtcNow - t).TotalMilliseconds + " ms");
 //Console.WriteLine("Day 04 B: " + Day04.BingoReversed(Day04.DrawnNumbersAndRandomBoards) + " " + "Calculated in " + (DateTime.UtcNow - t).TotalMilliseconds + " ms");
 //Console.WriteLine("Day 15 A: " + Day15.RunA(Day15.Chitons) + " " + "Calculated in " + (DateTime.UtcNow - t).TotalMilliseconds + " ms");
-Console.WriteLine("Day 15 B: " + Day15.RunB(Day15.Chitons) + " " + "Calculated in " + (DateTime.UtcNow - t).TotalMilliseconds + " ms");
+//Day15 day = new Day15(false);
+var day = new Day05();
+//Console.WriteLine("Day 15 B: " + day.RunB() + " " + "Calculated in " + (DateTime.UtcNow - t).TotalMilliseconds + " ms");

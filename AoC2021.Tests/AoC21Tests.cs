@@ -197,43 +197,17 @@ namespace AoC2021.Tests
         [TestMethod]
         public void Day15ATest()
         {
-            string[] input = new string[]
-            {
-                "1163751742",
-                "1381373672",
-                "2136511328",
-                "3694931569",
-                "7463417111",
-                "1319128137",
-                "1359912421",
-                "3125421639",
-                "1293138521",
-                "2311944581"
-            };
-
-            int num = Day15.RunA(input);
-            Assert.AreEqual(40, num);
+            Day15 day = new Day15(true);
+            int risk = day.RunA();
+            Assert.AreEqual(40, risk);
         }
 
         [TestMethod]
         public void Day15BTest()
         {
-            string[] input = new string[]
-            {
-                "1163751742",
-                "1381373672",
-                "2136511328",
-                "3694931569",
-                "7463417111",
-                "1319128137",
-                "1359912421",
-                "3125421639",
-                "1293138521",
-                "2311944581"
-            };
-
-            int num = Day15.RunB(input);
-            Assert.AreEqual(315, num);
+            Day15 day = new Day15(true);
+            int risk = day.RunB();
+            Assert.AreEqual(315, risk);
         }
     }
 }
